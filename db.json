@@ -193,6 +193,13 @@
       "descricao": "As tecnologias JavaScript, TypeScript, Node.js, React (ReactJS), React Native (com o framework Expo), HTML, CSS e SQL estão com uma força MUITO grande no cenário atual de Desenvolvimento Web e caso você esteja procurando um curso de programação, a hora é agora porque abriram as inscrições para a segunda edição do Next Level Week (antiga Semana OmniStack) da Rocketseat. O NLW é um evento online, gratuito que possui atualmente duas trilhas: iniciante liderada pelo Mayk Brito e avançada liderada pelo Diego Fernandes. Independente da trilha que você escolher, você aprenderá a programar um projeto web, do começo ao fim e que será entregue dentro de uma semana!",
       "categoriaId": 1,
       "id": 25
+    },
+    {
+      "titulo": "Me veja programar um Backend que troca informação em tempo-real!",
+      "url": "https://www.youtube.com/watch?v=rc3SSOiwTns",
+      "descricao": "JavaScript + Node.js + Socket.io é uma das coisas mais sensacionais que existem para programar. Ver os dados sendo trocados em tempo-real com WebSockets abre sua cabeça para várias idéias novas, ainda mais sabendo que essa stack também é compatível com desenvolvimento Mobile utilizando React Native. É realmente tudo MUITO legal e esse vídeo é um baita tutorial onde programo a base do backend do nosso jogo multiplayer e começo a trocar informações em tempo-real com o frontend.",
+      "categoriaId": 2,
+      "id": 26
     }
   ]
 }

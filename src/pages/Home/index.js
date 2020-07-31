@@ -9,18 +9,20 @@ function Home() {
 
   useEffect(() => {
     // http://localhost:8080/videos?_embed=videos
-    categoriasRepository.getAllWithVideos()
+    categoriasRepository
+      .getAllWithVideos()
       .then((categoriasComVideos) => {
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
+        // eslint-disable-next-line no-console
         console.log(err.message);
       });
   }, []);
 
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {dadosIniciais.length === 0 && <div>Loading...</div>}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
@@ -31,20 +33,12 @@ function Home() {
                 url={dadosIniciais[3].videos[2].url}
                 videoDescription="Quando seres interplanetários deixam marcas na Terra, a Dra. Louise Banks (Amy Adams), uma linguista especialista no assunto, é procurada por militares para traduzir os sinais e desvendar se os alienígenas representam uma ameaça ou não. No entanto, a resposta para todas as perguntas e mistérios pode ameaçar a vida de Louise e a existência de toda a humanidade."
               />
-              <Carousel
-                ignoreFirstVideo
-                category={dadosIniciais[0]}
-              />
+              <Carousel ignoreFirstVideo category={dadosIniciais[0]} />
             </div>
           );
         }
 
-        return (
-          <Carousel
-            key={categoria.id}
-            category={categoria}
-          />
-        );
+        return <Carousel key={categoria.id} category={categoria} />;
       })}
     </PageDefault>
   );
