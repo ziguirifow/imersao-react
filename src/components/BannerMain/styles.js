@@ -21,6 +21,7 @@ ContentAreaContainer.Item = styled.div`
   margin-bottom: 50px;
   @media (max-width: 800px) {
     width: 100%;
+    margin: 0;
   }
 `;
 
@@ -47,7 +48,6 @@ ContentAreaContainer.Category = styled.h1`
 
 ContentAreaContainer.Description = styled.p`
   @media (max-width: 800px) {
-    display: none;
   }
 `;
 
