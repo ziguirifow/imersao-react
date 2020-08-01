@@ -16,7 +16,7 @@ function Footer() {
       <p>
         Página desenvolvida por
         {' '}
-        <Link to="/" onclick={window.scroll({ top: 0, left: 0, behavior: 'smooth' })}>Thulio</Link>
+        <Link to="/" onClick={window.scroll({ top: 0, left: 0, behavior: 'smooth' })}>Thulio</Link>
         {' '}
         durante a #ImersãoReact da Alura
       </p>
