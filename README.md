@@ -10,4 +10,4 @@
 
 - `git clone https://github.com/ziguirifow/imersao-react.git`
 - `npm install`
-- `npm start`
+- `npm run dev`
