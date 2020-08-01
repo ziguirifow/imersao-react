@@ -47,4 +47,5 @@ export const VideoCardGroupContainer = styled.section`
   color: var(--white);
   min-height: 197px;
   padding-left: 4%;
+  margin-bottom: 1%;
 `;
