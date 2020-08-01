@@ -44,7 +44,7 @@ export const Container = styled.div`
 `;
 
 export const SliderItem = styled.div`
-    margin-right: 16px;
+    padding: 0 2px;
     img {
         margin: 16px;
         width: 298px;
