@@ -5,3 +5,9 @@
 </p>
 
 > Projeto construído durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
+
+# Run local
+
+- `git clone https://github.com/ziguirifow/imersao-react.git`
+- `npm install`
+- `npm start`
