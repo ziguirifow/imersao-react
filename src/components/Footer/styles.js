@@ -19,7 +19,7 @@ export const FooterBase = styled.footer`
       }
   }
 
-  & img{
+  img{
     width: 35px;
     margin-left: 5px;
     margin-bottom: -10px;
