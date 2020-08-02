@@ -18,7 +18,7 @@ function Load() {
   return (
     <Container>
       <Ellipsis color={getRandomColor()} />
-    </Container>
+    </Container >
   );
 }
 
