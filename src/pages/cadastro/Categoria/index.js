@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault';
-import FormField from '../../../components/FormField';
+import React, { useEffect, useState } from 'react';
 import Button from '../../../components/Button';
+import FormField from '../../../components/FormField';
+import Load from '../../../components/Load';
+import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
@@ -74,17 +74,11 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      {categorias.length === 0 && (
-        <div>
-          Loading...
-        </div>
-      )}
+      {categorias.length === 0 && (<Load />)}
 
       <ul>
         {categorias.map((categoria) => <li key={`${categoria.titulo}`}>{categoria.titulo}</li>)}
       </ul>
-
-      <Link to="/">Ir para Home</Link>
     </PageDefault>
   );
 }

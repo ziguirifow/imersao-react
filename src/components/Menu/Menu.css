@@ -5,6 +5,7 @@
 @media (max-width: 800px) {
   .Logo {
     max-width: 105px;
+    padding-top: 5%;
   }
 }
 
