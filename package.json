@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bit/joshk.jotils.get-random-color": "^2.1.1",
     "@bit/joshk.react-spinners-css.facebook": "^1.2.1",
     "@styled-icons/material-twotone": "^10.7.0",
     "@testing-library/jest-dom": "^4.2.4",
