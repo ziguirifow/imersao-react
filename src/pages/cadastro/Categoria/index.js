@@ -74,10 +74,9 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      {categorias.length === 0 && (<Load />)}
-
       <ul>
         {categorias.map((categoria) => <li key={`${categoria.titulo}`}>{categoria.titulo}</li>)}
+        {categorias.length === 0 && (<Load />)}
       </ul>
     </PageDefault>
   );

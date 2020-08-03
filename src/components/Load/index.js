@@ -6,10 +6,9 @@ const Container = styles.div`
   width: 100%;
   height: 100%;
 
-  position: fixed;
-
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 `;
 
