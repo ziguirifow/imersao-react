@@ -200,6 +200,20 @@
       "descricao": "JavaScript + Node.js + Socket.io é uma das coisas mais sensacionais que existem para programar. Ver os dados sendo trocados em tempo-real com WebSockets abre sua cabeça para várias idéias novas, ainda mais sabendo que essa stack também é compatível com desenvolvimento Mobile utilizando React Native. É realmente tudo MUITO legal e esse vídeo é um baita tutorial onde programo a base do backend do nosso jogo multiplayer e começo a trocar informações em tempo-real com o frontend.",
       "categoriaId": 2,
       "id": 26
+    },
+    {
+      "titulo": "",
+      "url": "",
+      "descricao": "",
+      "categoriaId": 1,
+      "id": 27
+    },
+    {
+      "titulo": "aaaaaaaa",
+      "url": "https://www.youtube.com/watch?v=rNciXGzYZms",
+      "descricao": "aaaa",
+      "categoriaId": 2,
+      "id": 28
     }
   ]
 }

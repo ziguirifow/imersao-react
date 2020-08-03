@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
+import Load from '../../components/Load';
 import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categorias';
-import Load from '../../components/Load';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);

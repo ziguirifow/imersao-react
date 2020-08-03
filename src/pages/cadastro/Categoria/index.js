@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Button from '../../../components/Button';
 import FormField from '../../../components/FormField';
-import Load from '../../../components/Load';
 import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/useForm';
 
@@ -73,8 +72,6 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
-
-      {categorias.length === 0 && (<Load />)}
 
       <ul>
         {categorias.map((categoria) => <li key={`${categoria.titulo}`}>{categoria.titulo}</li>)}

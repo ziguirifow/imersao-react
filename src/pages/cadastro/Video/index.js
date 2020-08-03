@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import Button from '../../../components/Button';
+import Button from './styled';
 import FormField from '../../../components/FormField';
 import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/useForm';

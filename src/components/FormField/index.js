@@ -87,6 +87,7 @@ function FormField({
     <FormFieldWrapper>
       <Label htmlFor={fieldId}>
         <Input
+          required
           as={tag}
           id={fieldId}
           type={type}
