@@ -1,23 +1,6 @@
 import React from 'react';
-import { Default } from 'react-spinners-css';
-import styles from 'styled-components';
+import { SemipolarLoading } from 'react-loadingg';
 
-const Container = styles.div`
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-`;
-
-function Load() {
-  return (
-    <Container>
-      <Default color="red" />
-    </Container>
-  );
-}
+const Load = () => <SemipolarLoading color="red" />;
 
 export default Load;
